@@ -1,0 +1,22 @@
+.navigation{
+    border-bottom: 2px solid;
+}
+
+.navbar{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.about{
+    /* border: 2px solid; */
+    text-align: center;
+    width: 700px;
+    margin: auto;
+}
