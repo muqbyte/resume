@@ -13,19 +13,3 @@ a{
     padding-left: 15px;
     padding-right: 15px;
 }
-
-.about{
-    /* border: 2px solid; */
-    text-align: center;
-    width: 700px;
-    margin: auto;
-}
-
-li{
-    list-style: none;
-}
-
-.contact{
-    /* border: 2px solid; */
-    text-align: center;
-}
