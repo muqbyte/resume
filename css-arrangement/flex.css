@@ -1,0 +1,22 @@
+.header{
+    background-color: #FFE066;
+    width:1440px;
+    height:164px;
+}
+
+.main-parent{
+    display: flex;
+}
+
+.blue-container{
+    background-color:#247BA0 ;
+    width: 307px;
+    height: 860px;
+}
+
+.red-container{
+    background-color: #F25F5C;
+    width: 989px;
+    height: 624px;
+    margin: 69px 74px 167px 70px;
+}
