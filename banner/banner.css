@@ -1,3 +1,24 @@
 body{
     background-color: #1E1E1E;
 }
+
+.white-container{
+
+    box-sizing: border-box;
+    position: absolute;
+    width: 504px;
+    height: 618px;
+    left: 957px;
+    top: 166px;
+    border: 60px solid #FFFFFF;
+}
+
+.red-container{
+    box-sizing: border-box;
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    border: 40px solid #E82C4F;
+    left: 1089px;
+    top: 305px;
+}
