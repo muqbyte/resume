@@ -2,10 +2,43 @@ body{
     background-color: #1E1E1E;
 }
 
+
+.white-solid{
+    background-color:#FFFFFF ;
+    position: absolute;
+    width: 31.06px;
+    height: 27.42px;
+    left: 130px;
+    top: 152.42px;
+}
+
+
+.red-solid{
+    background-color:#E82C4F ;
+    position: absolute;
+    display: flex;
+    width: 60.47px;
+    height: 68.55px;
+    left: 161.07px;
+    top: 179.87px;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bolder;
+    color: #FFFFFF;
+}
+
+.warmups{
+    color: #FFFFFF;
+    position: absolute;
+    left: 261.54px;
+    top: 125px;
+}
+
 .white-container{
 
     box-sizing: border-box;
-    position: absolute;
+    position: relative;
     width: 504px;
     height: 618px;
     left: 957px;
@@ -21,4 +54,55 @@ body{
     border: 40px solid #E82C4F;
     left: 1089px;
     top: 305px;
+}
+
+.small-white{
+    border: 20px solid #FFFFFF;
+    box-sizing: border-box;
+    position: absolute;
+    width: 80px;
+    height:80px;
+    left:1169px;
+    top:385px;
+}
+
+.blue-container{
+    border: 20px solid #3256A1;
+    box-sizing: border-box;
+    position: absolute;
+    width:80px;
+    height:80px;
+    left: 1089px;
+    top:585px;
+}
+
+.white-circle{
+    border: 20px solid #FFFFFF;
+    box-sizing: border-box;
+    position: absolute;
+    width: 80px;
+    height:80px;
+    left: 1249px;
+    top:585px;
+    border-radius: 80px;
+}
+
+.square-box1{
+    border: 60px solid #2D2F48;
+    box-sizing: border-box;
+    position: absolute;
+    width:558px;
+    height: 644px;
+    left: 691px;
+    top: 385px;
+}
+
+.square-box2{
+    border: 60px solid #48596D;
+    box-sizing: border-box;
+    position: absolute;
+    width:558px;
+    height: 644px;
+    left: 1169px;
+    top: -179px;
 }
