@@ -125,9 +125,30 @@ main{
     box-sizing: border-box;
 }
 
-.box{
+.header{
+    display: flex;
     border: 2px blue solid;
     box-sizing: border-box;
     width: 462.54px;
-    height: 96px;
+    /* height: 96px; */
+}
+
+.box{
+    /* display: flex; */
+    border: 2px purple solid;
+    width:91.53px;
+    height: 95.87px;
+}
+
+.left-white{
+    background-color:  pink;
+    width: 31.06px;
+    height: 27.42px;
+}
+
+.right-red{
+    background-color: red;
+    width: 60.47px;
+    height: 68.55px;
+    margin-left: 31.06px;
 }
