@@ -129,6 +129,7 @@ main{
 .right{
     width: 681px;
     box-sizing: border-box;
+   
 }
 
 .header{
@@ -194,12 +195,14 @@ p{
     font-size: 64px;
 }
 
+
+
 .white-container{
     box-sizing: border-box;
-    /* position: relative; */
-    width: 403.2px;
-    height: 517.2px;
-    left: 765.6px;
-    top: 132.8px;
+    position: absolute;
+    width: 504px;
+    height: 618px;
+    left: 957px;
+    top: 166px;
     border: 48px solid #FFFFFF;
 }
