@@ -1,208 +1,55 @@
-/* body{
-    background-color: #1E1E1E;
-    
-}
-
-
-.white-solid{
-    background-color:#FFFFFF ;
-    position: absolute;
-    width: 31.06px;
-    height: 27.42px;
-    left: 130px;
-    top: 152.42px;
-}
-
-
-.red-solid{
-    background-color:#E82C4F ;
-    position: absolute;
-    display: flex;
-    width: 60.47px;
-    height: 68.55px;
-    left: 161.07px;
-    top: 179.87px;
-    justify-content: center;
-    align-items: center;
-    font-size: 50px;
-    font-weight: bolder;
-    color: #FFFFFF;
-}
-
-.warmups{
-    color: #FFFFFF;
-    position: absolute;
-    left: 261.54px;
-    top: 125px;
-}
-
-.white-container{
-    box-sizing: border-box;
-    position: relative;
-    width: 403.2px;
-    height: 517.2px;
-    left: 765.6px;
-    top: 132.8px;
-    border: 48px solid #FFFFFF;
-}
-
-.red-container{
-    box-sizing: border-box;
-    position: absolute;
-    width: 192px;
-    height: 192px;
-    border: 32px solid #E82C4F;
-    left: 871.2px;
-    top: 244px;
-}
-
-.small-white{
-    border: 16px solid #FFFFFF;
-    box-sizing: border-box;
-    position: absolute;
-    width: 64px;
-    height:64px;
-    left:935.2px;
-    top:308px;
-}
-
-.blue-container{
-    border: 16px solid #3256A1;
-    box-sizing: border-box;
-    position: absolute;
-    width:64px;
-    height:64px;
-    left: 871.2px;
-    top:468px;
-}
-
-.white-circle{
-    border: 16px solid #FFFFFF;
-    box-sizing: border-box;
-    position: absolute;
-    width: 64px;
-    height:64px;
-    left: 999.2px;
-    top:468px;
-    border-radius: 64px;
-}
-
-.square-box1{
-    border: 60px solid #2D2F48;
-    box-sizing: border-box;
-    position: absolute;
-    width:558px;
-    height: 644px;
-    left: 691px;
-    top: 385px;
-}
-
-.square-box2{
-    border: 60px solid #48596D;
-    box-sizing: border-box;
-    position: absolute;
-    width:558px;
-    height: 644px;
-    left: 1169px;
-    top: -179px;
-} */
-
 body{
-    background-color: #1E1E1E;
+    background-color: #1E1E1E;    
     
 }
 
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue';
+    color: #FFF;
+}
 main{
     display: flex;
 }
 
-.container{
-    border: 2px red solid;
-}
-
-.left{
-    width: 930px;
-    box-sizing: border-box;
-}
-
-.right{
-    width: 681px;
-    box-sizing: border-box;
-   
-}
-
 .header{
+    border: #FFF solid 1px;
     display: flex;
-    border: 2px blue solid;
-    box-sizing: border-box;
-    width: 462.54px;
-    /* height: 96px; */
-    margin-left: 130px;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
 }
 
 .box{
-    /* display: flex; */
-    border: 2px purple solid;
-    width:91.53px;
-    height: 95.87px;
-    
+    /* border: #E82C4F solid 2px; */
+    width: 55px;
+    height: 55px;
+    position: relative;
 }
 
 .left-white{
-    background-color:  #FFFFFF;;
-    width: 31.06px;
-    height: 27.42px;
+    background-color: #FFF;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .right-red{
-    background-color: red;
-    width: 60.47px;
-    height: 68.55px;
-    margin-left: 31.06px;
-    
-}
-
-.warmups{
-    font-family: 'Bebas Neue', sans-serif;
-    font-weight: 400;
-    font-size: 80px;
-    color: #FFFFFF;
-}
-
-.middle-caption{
-    border: 2px blueviolet solid;
-    font-family: 'Bebas Neue', sans-serif;
-    font-weight: 400;
-    font-size: 156px;
-    margin-left: 130px;
-    margin-top: 50px;
-    color: #FFFFFF;
-}
-
-p{
-    all: unset;
-}
-
-.logo{
+    background-color: #E82C4F;
+    width: 40px;
+    height: 40px;
     display: flex;
-    border: 2px blueviolet solid;
-    margin-left: 130px;
-    margin-top: 40px;
-    color: #FFFFFF;
-    font-family: 'Bebas Neue', sans-serif;
-    font-weight: 400;
-    font-size: 64px;
-}
-
-
-
-.white-container{
-    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     position: absolute;
-    width: 504px;
-    height: 618px;
-    left: 957px;
-    top: 166px;
-    border: 48px solid #FFFFFF;
+    bottom: 0;
+    right: 0;
 }
+
+
+
