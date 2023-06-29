@@ -18,6 +18,7 @@ body{
     align-items: center;
     width: 100vw;
     height: 100vh;
+    overflow: hidden;
 }
 
 .left-container,
@@ -103,3 +104,93 @@ body{
     margin-right: 20px;
 }
 
+/* right container */
+
+.right-container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* border: pink solid 5px; */
+}
+
+
+.white-container{
+ 
+    width: 400px;
+    height: 500px;
+    border: #FFF 40px solid;
+    box-sizing: border-box;
+    
+}
+
+.red-container{
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    border: #E82C4F 20px solid;
+    margin-top: 70px;
+    margin-left: 60px;
+    /* margin-right: 160px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.small-white{
+    width: 60px;
+    height: 60px;
+    border: #FFF 10px solid;
+}
+
+.white-blue{
+    width: 200px;
+    
+    margin-top: 60px;
+    border: #FFF 1px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-left: 60px;
+}
+
+.blue-container{
+    width: 60px;
+    height: 60px;
+    border: #3256A1 10px solid;
+}
+
+.white-circle{
+    width: 60px;
+    height: 60px;
+    border: #fff 10px solid;
+    border-radius: 60px;
+}
+
+/* background box */
+.outside-box-one{
+    position: absolute;
+    top: -225px;
+    left: 315px;
+    z-index: -1;
+    width: 500px;
+    height: 500px;
+    border: #48596D 40px solid;
+    opacity: 0.5;
+    
+}
+
+.outside-box-two{
+    position: absolute;
+    bottom: -148px;
+    right: 320px;
+    z-index: -1;
+    width: 500px;
+    height: 500px;
+    border: #2D2F48 40px solid;
+    opacity: 0.5;
+    overflow-x: hidden;
+}
