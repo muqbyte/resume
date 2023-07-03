@@ -24,19 +24,48 @@ a{
     flex-direction: row;
     justify-content: start;
     align-items: start;
+    background-color: rgb(85,105,220);
 }
-
 .left-page{
-    border: black 2px solid;
-    height: 100%;
-    width: 60%;
+    background-color: rgb(85,105,220);
+    background-image: url("../assets/laptop-background.png");
+    background-repeat: no-repeat;
+    background-size: coverS;
+    width: 55%;
+    height: 91vh;
+    /* border: black 2px solid; */
+    border-top-right-radius: 30px;
 }
 
-.gambar{
-    width: 500px;
-    height: 500px;
-    object-fit: cover;
+.right-page{
+    background-color: rgb(85,105,220);
+    width: 45%;
+    height: 91vh;
 }
+
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+
+img{
+    border-radius: 100px;
+}
+
+.details > h1{
+    padding-bottom: 20px;
+}
+
+.qualification,
+.location{
+    font-size: 20px;
+}
+
 .about{
     /* border: 2px solid; */
     text-align: center;
