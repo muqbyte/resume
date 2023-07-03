@@ -1,19 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 header{
-    border-bottom: 2px solid;
+    /* border-bottom: 2px solid; */
+    background-color: rgb(85,105,220);
 }
 
 .navbar{
     display: inline-block;
+    margin: 20px;
 }
 
 a{
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: bold;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
+.main-page{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+}
+
+.left-page{
+    border: black 2px solid;
+    height: 100%;
+    width: 60%;
+}
+
+.gambar{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
 .about{
     /* border: 2px solid; */
     text-align: center;
