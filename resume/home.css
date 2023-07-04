@@ -33,9 +33,10 @@ a{
     background-size: coverS;
     width: 55%;
     height: 91vh;
-    border: black 2px solid;
+    /* border: black 2px solid; */
     border-top-right-radius: 30px;
-    
+    background-size: cover;
+    opacity: 100%;
 }
 
 .right-page{
@@ -133,9 +134,14 @@ height: 200px;
     justify-content: center;
     align-items: start;
     gap: 50px;
-    padding-top: 150px;
+    padding-top: 110px;
+}
+
+.details > h1{
+    padding-top: 40px;
 }
 
 .social-media > i {
     font-size: 40px;
+    color: white;
 }
